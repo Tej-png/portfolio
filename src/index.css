@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8f4f1;
+  font-family: 'Space Grotesk', serif;
+}
+
+.project-img {
+  height: 200px;
+  width: 400px;
+}
+
+.about,
+.contact {
+  background-color: #ebe5d6;
+}
+
+.menu {
+  transition: all 0.3s ease-in-out;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Styles for mobile devices */
+  .project-img {
+    height: 200px;
+  }
+  .navMenuMob {
+    background-color: #ebe5d6;
+  }
+}
